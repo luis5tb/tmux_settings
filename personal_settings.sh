@@ -1,5 +1,4 @@
 #!/bin/sh
-cd ~
 
 #sudo yum install -y epel-release
 sudo yum install -y vim vim-enhanced ctags unzip python-flake8
