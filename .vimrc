@@ -56,14 +56,24 @@ filetype plugin indent on    " required
 " syntax highlighting
 " syntax enable
 
+
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+
 let python_highlight_all=1
 syntax on
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
+set laststatus=2 " Always display the statusline in all windows
+set showtabline=2 " Always display the tabline, even if there is only one tab
+
+
 " set theme
 set t_Co=256
+set noshowmode
 set background=dark
 set encoding=utf-8
 colorscheme bubblegum-256-dark
@@ -75,6 +85,7 @@ set ruler
 
 " highlight current line
 set cursorline
+set relativenumber
 
 " show color column at 80
 set colorcolumn=80
