@@ -9,8 +9,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " Plugins
 " vim-airline
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
 " vim-bubblegum
 Plugin 'baskerville/bubblegum'
 " vim-fugitive
