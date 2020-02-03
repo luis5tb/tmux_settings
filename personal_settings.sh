@@ -4,7 +4,7 @@
 sudo yum install -y vim vim-enhanced ctags unzip python-flake8
 
 # uncomment if fedora
-#sudo dnf install powerline powerline-fonts tmux-powerline vim-powerline
+sudo dnf install powerline powerline-fonts tmux-powerline vim-powerline
 
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
