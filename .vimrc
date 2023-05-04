@@ -14,7 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " vim-bubblegum
 Plugin 'baskerville/bubblegum'
 " vim-fugitive
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 " vim-git
 Plugin 'tpope/vim-git'
 " vim-gitgutter
@@ -37,8 +37,8 @@ Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'antoyo/vim-licenses'
 " vim-snipmate
 Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
+"Plugin 'tomtom/tlib_vim'
+"Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 " vim-syntastic
 Plugin 'scrooloose/syntastic'
@@ -57,9 +57,9 @@ filetype plugin indent on    " required
 " syntax enable
 
 
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+" python from powerline.vim import setup as powerline_setup
+" python powerline_setup()
+" python del powerline_setup
 
 let python_highlight_all=1
 syntax on

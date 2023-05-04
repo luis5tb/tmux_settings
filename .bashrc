@@ -15,3 +15,7 @@ if [ -f `which powerline-daemon` ]; then
   . /usr/share/powerline/bash/powerline.sh
 fi
 
+export EDITOR=/usr/bin/vi
+export GOROOT=/usr/lib/golang
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
